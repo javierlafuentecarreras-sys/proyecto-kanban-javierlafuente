@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+
+        body {
+            background-color: rgb(58, 188, 188);
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+        }
+
+        #formulario {
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 75px;
+        }
+
+        #form {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+
+        #form td {
+            padding: 10px;
+        }
+
+        input {
+            background-color: rgb(202, 205, 208);
+            color: black;
+        }
+
+        fieldset {
+            background-color: white;
+        }
+
+        #boton {
+            height: 35px;
+            background-color: black;
+            color: white;
+        }
+
+        #boton:hover {
+            background-color: white;
+            color: black;
+        }
+
+        legend {
+            height: 20px;
+            width: 150px;
+            background-color: white;
+            border-style: double;
+            font-variant: small-caps;
+            font-size: 1em;
+        }
+
+
+        .centrar {
+            text-align: center;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="formulario">
+
+    <fieldset>
+        <legend>Formulario de registro</legend>
+
+        <form action="">
+
+            <table id="form">
+
+            <tr>
+                <td> <label for="camponombre">Nombre:</label></td>
+                <td> <input type="text" name="camponombre"></td>
+            </tr>
+            <tr>
+                <td><label for="campoapellido">Apellido:</label></td>
+                <td><input type="text" name="campoapellido"></td>
+            </tr>    
+            <tr>
+                <td><label for="campodni">DNI:</label></td>
+                <td><input type="text" name="campodni" required></td>
+            </tr>
+            <tr>
+                <td><label for="campoedad">Edad:</label></td>
+                <td><input type="number" name="campoedad"></td>
+            </tr>
+            <tr>
+                <td><label for="campopass">Contraseña:</label></td>
+                <td><input type="password" name="campopass"></td>
+            </tr>
+            <tr>
+                <td><label for="campofecha">Fecha:</label></td>
+                <td><input type="date" name="campofecha"></td>
+            </tr>
+            <tr>
+                <td><label for="campofecha">Fecha:</label></td>
+                <td><input type="datetime-local" name="campofecha"></td>
+            </tr>
+            <tr>
+                <td><label for="campoemail">Email:</label></td>
+                <td><input type="email" name="campoemail"></td>
+            </tr>
+            <tr>
+                <td><label for="campotel">Tel:</label></td>
+                <td><input type="tel" name="campotel"></td>
+            </tr>
+            <tr>
+                <td><label for="Casado:">Estado civil:</label></td>
+                <td>Casado:<input type="radio" name="ecivil" checked> Soltero: <input type="radio" name="ecivil"></td>
+            </tr>
+            <tr>
+                <td><label for="campoarchivo">Subir archivo:</label></td>
+                <td><input type="file" name="campoarchivo"></td>
+            </tr>
+            <tr>
+                <td><label for="camposemana">Semana:</label></td>
+                <td><input type="week" name="camposemana"></td>
+            </tr>
+            
+            </table>
+
+        <p class="centrar">    
+
+        <input type="submit" title="Enviar" id="boton">
+        <input type="reset" title="Resetear" id="boton">
+
+        </p>
+
+        </form>
+
+    </fieldset>
+
+    </div>
+
+</body>
+</html>
