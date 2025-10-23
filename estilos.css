@@ -1,0 +1,142 @@
+body {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(222, 222, 222);
+    width: 10px;
+    border-radius: 25px;
+    border: solid, black, 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 15px;
+    border: solid, black, 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.lista {
+    list-style: none;
+}
+
+header img {
+    border-radius: 100%;
+    border: solid, black, 1px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+#info-perfil{
+    margin-left: 30px;
+}
+
+.titulo {
+    margin-left: 30px;
+}
+
+.section {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: solid, black, 1px;
+    width: 700px;
+}
+
+form {
+    width: 85%;
+}
+
+form ul li{
+    list-style: none;    
+    margin-bottom: 10px;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid, black, 1px;
+    border-radius: 3px;
+    font-size: 16px;
+    
+}
+
+textarea {
+    resize: vertical;
+    min-height: 20px;
+    max-height: 300px;
+}
+
+.submit {
+    background-color: rgb(70, 122, 219);
+    transition: all 0.5s;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+.submit:hover { 
+    background-color: rgb(15, 86, 218);
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+}
+
+.sectionfooter {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: solid, black, 1px;
+    width: 350px;
+}
+
+.video {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: solid, black, 1px;
+    width: 350px;
+}
+
+.contacto li a {
+    text-decoration: none;
+    color: black;
+}
+
+.copy {
+    margin: 20px;
+    text-align: center;
+}
